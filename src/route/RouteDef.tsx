@@ -1,5 +1,5 @@
-import {AllNotes, ArchiveNotes, ErrorPage, TagNotes, TrashNotes} from "../pages"
-import {Navigate} from "react-router-dom";
+import { AllNotes, ArchiveNotes, ErrorPage, TagNotes, TrashNotes } from "../pages"
+import { Navigate } from "react-router-dom";
 
 
 const MainScreens = {
