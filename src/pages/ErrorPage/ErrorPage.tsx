@@ -15,7 +15,9 @@ const ErrorPage = () => {
             <div className="error__text">
                 <h1>404</h1>
                 <div>Error Founded</div>
-                <ButtonFill onClick={() => {navigate('/')}}></ButtonFill>
+                <ButtonFill onClick={() => {navigate('/')}}>
+                    <span>Back to  main page</span>
+                </ButtonFill>
             </div>
         </Container>
     );
